@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=VNC Configuration
+Exec=vncmanager-controller --tray --start-setup
+Type=Application
+Terminal=false
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+# Gnome doesn't show tray icons anymore. Gnome-shell extension is used instead.
+X-NotShowIn=GNOME
