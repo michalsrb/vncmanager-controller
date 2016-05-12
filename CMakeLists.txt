@@ -26,4 +26,4 @@ target_link_libraries(vncmanager-controller Qt5::Widgets Qt5::Network Qt5::X11Ex
 
 install(TARGETS vncmanager-controller RUNTIME DESTINATION bin)
 install(FILES vncmanager-controller.desktop DESTINATION /${CMAKE_INSTALL_SYSCONFDIR}/xdg/autostart)
-install(DIRECTORY gnome-shell-extension DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/gnome-shell/extensions/vncmanager-controller@vncmanager.michalsrb.github.com)
+install(FILES gnome-shell-extension/extension.js gnome-shell-extension/metadata.json DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/gnome-shell/extensions/vncmanager-controller@vncmanager.michalsrb.github.com)
