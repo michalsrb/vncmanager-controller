@@ -1,5 +1,6 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMenu>
+#include <QtWidgets/QStyle>
 #include <QtWidgets/QSystemTrayIcon>
 #include <QtX11Extras/QX11Info>
 
